@@ -22,6 +22,9 @@ El dataset se descarga automáticamente desde:
 
 ## Instalación y ejecución
 
+## Instalar Java 
+conda install -c conda-forge openjdk=11
+
 ```bash
 # Clonar repositorio
 git clone https://github.com/tu-usuario/hyperparam-tuning-pyspark.git
@@ -32,3 +35,4 @@ pip install -r requirements.txt
 
 # Ejecutar pipeline
 python run.py
+
